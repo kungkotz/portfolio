@@ -22,7 +22,7 @@ export const StarBackground = () => {
 	const generateStars = () => {
 		// Decide how many stars to make based on screen size
 		const numberOfStars = Math.floor(
-			(window.innerWidth * window.innerHeight) / 10000
+			(window.innerWidth * window.innerHeight) / 5000
 		);
 
 		// Create an empty list to fill with stars
